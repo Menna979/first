@@ -13,9 +13,11 @@ jobs:
 
 
     steps:
-      - name: 'Testing github action'
-        run: pwd
-    
-      - name: 'Testing Print'
-        run: echo Menna Osama
+      - name: 'folders before'
+        run: ls
+
+     - uses: actions/checkout@v3
+
+      - name: 'folders after'
+        run: ls
 
