@@ -13,11 +13,10 @@ jobs:
 
 
     steps:
-      - name: 'folders before'
-        run: ls
+      - name: 'Testing github action'
+        run: pwd
+    
 
-     - uses: actions/checkout@v3
-
-     - name: 'folders after'
-       run: ls
+      - name: 'Login'
+        run: echo menna
 
